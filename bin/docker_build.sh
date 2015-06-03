@@ -43,5 +43,3 @@ done
 
 sudo docker start "$NEW_CONTAINER_ID" || exit 11
 echo "** Started New container id: $NEW_CONTAINER_ID"
-
-

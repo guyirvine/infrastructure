@@ -1,7 +1,7 @@
 #!/bin/bash
 
 FILE_NAME=project.sql
-COMPRESSED_FILE_NAME=project.$(date +%Y%m%d).tar.bz2
+COMPRESSED_FILE_NAME=project.$(date +%Y%m%d%H%M).tar.bz2
 WORKING_DIR=/guyirvine.com/backup
 
 find "$WORKING_DIR" -iname 'project.*.tar.bz2' -type f -mtime +6 -delete
